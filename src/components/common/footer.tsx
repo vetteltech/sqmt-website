@@ -51,8 +51,8 @@ function Footer() {
               Contact
             </p>
             <ol className="font-[DM-Sans-light] text-[16px] leading-[26px] text-[#11111C] mt-[10px]">
-              <li>Contact@zameen.com</li>
-              <li>+91 123 456 7890</li>
+              <li>info@sqmt.com</li>
+              <li>+91 12345 67890</li>
             </ol>
           </div>
           <div>
@@ -60,10 +60,7 @@ function Footer() {
               Address
             </p>
             <ol className="font-[DM-Sans-light] text-[16px] leading-[26px] text-[#11111C] mt-[10px]">
-              <li>
-                YourCompany Pvt. Ltd. 123, Business Park, MG Road, Andheri East, Mumbai – 400059,
-                India
-              </li>
+              <li>SQMT Pvt. Ltd., Andheri East, Mumbai – 400059, India</li>
               <li></li>
             </ol>
           </div>

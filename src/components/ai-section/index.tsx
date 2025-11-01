@@ -7,9 +7,9 @@ function AiSection() {
   return (
     <div
       id="about"
-      className=" 2xl:bg-[#F4F6FF] lg:mx-[30px] 2xl:mx-[25%] rounded-t-[10px] overflow-hidden"
+      className=" mx-[16px] 2xl:bg-[#F4F6FF] lg:mx-[30px] 2xl:mx-[25%] rounded-t-[10px] overflow-hidden"
     >
-      <div className="w-[100%] min-h-[590px] bg-[#F4F6FF] pt-[80px] lg:pt-[120px]">
+      <div className="w-[100%] min-h-[480px] lg:min-h-[590px] bg-[#F4F6FF] pt-[35px] lg:pt-[120px]">
         <div className="max-w-[161px] h-[35px] px-[10px] py-[5px] mx-[5px] lg:mx-[8%] lg:mx-[60px]">
           <Tags bgColor="#FFFFFF" text="Why Zameen?" />
         </div>
@@ -34,8 +34,10 @@ function AiSection() {
                 PrimaryText="Built for Agents. Powered by AI"
                 secondaryText="Zameen.app was designed to fit how Indian real estate professionals actually work. No more juggling Excel sheets, WhatsApp messages, and lost leads. Our AI-backed CRM brings everything into one platform — intuitive, localized, and focused on results."
                 primaryStyle={{
-                  width: '627px',
+                  width: '506px',
                   textAlignment: 'left',
+                  primaryTextWidth: '420px',
+                  primaryTextMobileWidth: '317px',
                   mobile: {
                     width: '324px',
                   },
@@ -58,7 +60,7 @@ function AiSection() {
               // style={{
               //   objectFit: 'fill',
               // }}
-              className="lg:hidden w-[100%] h-[190px] absolute bottom-[-364px] left-0 px-[16px]"
+              className="lg:hidden w-[100%] h-[210px] absolute bottom-[-227px] left-0 px-[16px]"
             />
           </div>
 
@@ -102,7 +104,7 @@ function AiSection() {
                   <h2 className=" font-[Forum] text-[50px] text-[#FFFFFF] mt-[10px] leading-[30px]">
                     {item.percentage}
                   </h2>
-                  <p className="max-w-[235px] font-[DM-Sans-light] text-[16px] text-[#FFFFFF] mt-[30px] lg:mt-[25px]">
+                  <p className="lg:max-w-[235px] font-[DM-Sans-light] text-[16px] text-[#FFFFFF] mt-[30px] lg:mt-[25px]">
                     {item.text}
                   </p>
                 </div>

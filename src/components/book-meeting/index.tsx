@@ -6,7 +6,7 @@ const BookMeetingSection = () => {
   return (
     <div
       id="contact_us"
-      className="lg:h-[707px] bg-[#11111C] py-[40px] lg:py-[0px] 2xl:mx-[25%]  my-[80px] lg:my-[20px] rounded-[10px] flex flex-col lg:flex-row justify-center items-center overflow-hidden"
+      className="mx-[16px] lg:mx-[30px] lg:h-[707px] bg-[#11111C] py-[40px] lg:py-[0px] 2xl:mx-[25%]  my-[20px] lg:my-[20px] rounded-[10px] flex flex-col lg:flex-row justify-center items-center overflow-hidden"
     >
       <div className="lg:w-[50%] h-[100%] flex flex-col justify-center items-center">
         <div className="w-[100%] px-[16px] lg:px-[0px] mb-[40px] lg:mb-[0px] lg:w-[80%]">

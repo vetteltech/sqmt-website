@@ -23,6 +23,7 @@ function Testimonials() {
         primaryStyle={{
           width: '627px',
           textAlignment: 'left',
+          isSecondaryBottomText: true,
           mobile: {
             width: '324px',
           },

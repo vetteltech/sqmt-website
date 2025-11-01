@@ -4,7 +4,7 @@ import HeroText from './hero-text';
 function Hero() {
   return (
     <div className="overflow-x-hidden">
-      <div className="w-[100%] h-[90vh] lg:h-[100vh] relative overflow-hidden">
+      <div className="w-[100%] h-[470px] lg:h-[97vh] relative overflow-hidden">
         <img
           src="/assets/hero.gif"
           alt="heroimage"
@@ -27,7 +27,7 @@ function Hero() {
           //   objectFit: 'scale-down',
           // }}
         />
-        <div className="w-[100%] w-full h-[100vh] top-[6%] lg:px-[5%] absolute lg:absolute z-10 py-[6%] px-[16px] lg:px-[0%]">
+        <div className="w-[100%] w-full h-[100vh] top-[6%] lg:top-[1%] lg:px-[5%] absolute lg:absolute z-10 py-[6%] px-[16px] lg:px-[0%]">
           <HeroText />
         </div>
       </div>

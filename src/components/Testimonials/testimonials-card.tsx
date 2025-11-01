@@ -19,7 +19,7 @@ function TestimonialsCards({
   }[];
 }) {
   return (
-    <div className="w-[100%] max-w-[605px] min-h-[440px] p-[30px] border border-[#E4E4E7] rounded-[10px]">
+    <div className="w-[100%] max-w-[605px] min-h-[440px] p-[16px] lg:p-[30px] border border-[#E4E4E7] rounded-[10px]">
       <div>
         <Image
           src={logo || '/assets/features/grow40.svg'}
@@ -29,7 +29,7 @@ function TestimonialsCards({
         />
       </div>
 
-      <div className="mt-[20px] flex flex-col lg:flex-row justify-start items-center gap-[30px] lg:gap-[60px]">
+      <div className="hidden lg:block mt-[20px] flex flex-col lg:flex-row justify-start items-center gap-[16px] lg:gap-[60px]">
         <div className="w-[100%]">
           <h3 className="font-[DM-Sans-light] text-[16px] lg:text-[16px] leading-[21px] text-[#585860]">
             Portfolio Type:
@@ -64,7 +64,7 @@ function TestimonialsCards({
             ' "Zameen has revolutionized our real estate business. The AI-driven lead management system has significantly improved our conversion rates and overall efficiency."'}
         </p>
 
-        <div className="w-[100%] mt-[46px] gap-[29px] flex flex-col lg:flex-row justify-start items-center">
+        <div className="w-[100%] mt-[46px] gap-[16px] lg:gap-[29px] flex flex-col lg:flex-row justify-start items-center">
           {performance?.map((item, index) => {
             return (
               <div

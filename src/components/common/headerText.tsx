@@ -4,6 +4,8 @@ import { useDeviceType } from '@/hooks/useDeviceType';
 interface PrimaryStyle {
   width?: string;
   height?: string;
+  primaryTextWidth?: string;
+  primaryTextMobileWidth?: string;
   textAlignment?: 'left' | 'center' | 'right';
   isSecondaryBottomText?: boolean;
   mobile?: {
@@ -28,7 +30,7 @@ function HeaderText({
         display: primaryStyle?.textAlignment === 'center' ? 'flex' : 'block',
       }}
     >
-      {isMobile && primaryStyle?.isSecondaryBottomText ? (
+      {!primaryStyle?.isSecondaryBottomText ? (
         <div
           className="text-center"
           style={{
@@ -49,13 +51,18 @@ function HeaderText({
               className="font-[Forum] text-[35px] lg:text-[50px] leading-[40px] lg:leading-[50px] text-[#11111C]"
               style={{
                 textAlign: primaryStyle?.textAlignment ? primaryStyle?.textAlignment : 'center',
+                width: isMobile
+                  ? primaryStyle?.primaryTextMobileWidth
+                  : primaryStyle?.primaryTextWidth
+                  ? primaryStyle?.primaryTextWidth
+                  : '100%',
               }}
             >
               {PrimaryText}
             </h1>
             <div className="h-[100%] flex lg:items-end">
               <p
-                className="font-[DM-Sans-light] text-[16px] leading-[21px] lg:leading-[25px] text-[#585860] mt-[5px]"
+                className="w-[100%] font-[DM-Sans-light] text-[16px] leading-[21px] lg:leading-[25px] text-[#585860] mt-[5px]"
                 style={{
                   textAlign: primaryStyle?.textAlignment ? primaryStyle?.textAlignment : 'center',
                 }}

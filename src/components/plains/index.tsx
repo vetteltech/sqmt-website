@@ -4,10 +4,10 @@ import Plan from './plan';
 
 function PlanSection() {
   return (
-    <div className=" 2xl:mx-[25%] rounded-[10px] overflow-hidden">
+    <div className="mx-[16px] lg:mx-[30px]  2xl:mx-[25%] rounded-[10px] overflow-hidden">
       <div id="plans" className="w-[100%] lg:px-[30px] px-[16px] bg-[#F4F6FF] overflow-x-hidden">
-        <div className="w-[100%] flex flex-col justify-center items-center pt-[80px] lg:pt-[120px]">
-          <div className="w-[120px] h-[35px] px-[10px] py-[5px]  mx-[60px]">
+        <div className="w-[100%] flex flex-col justify-center items-center pt-[35px] lg:pt-[120px]">
+          <div className="w-[120px] h-[35px] px-[10px] py-[5px]  mb-[10px] mx-[60px]">
             <Tags bgColor="#FFFFFF" text="Testimonials" />
           </div>
 
@@ -35,13 +35,13 @@ function PlanSection() {
               width: '627px',
               textAlignment: 'center',
               mobile: {
-                width: '324px',
+                width: '264px',
               },
             }}
           />
         </div>
 
-        <div className="w-[100%] mt-[120px] lg:mt-[200px] lg:mt-[80px] flex flex-col lg:flex-row justify-center items-center gap-[20px]">
+        <div className="w-[100%] mt-[40px] lg:mt-[80px] flex flex-col lg:flex-row justify-center items-center gap-[20px]">
           <Plan
             planName="Starter Plan"
             planDescription="Perfect for small businesses getting started with AI automation."

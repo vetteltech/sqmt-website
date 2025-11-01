@@ -10,7 +10,7 @@ function TrustSection() {
         </p>
       </div>
 
-      <Marquee className="w-[90%] h-[100%]" gradient={false} speed={60}>
+      <Marquee className="w-[90%] h-[100%]" gradient={false} speed={40}>
         {[
           'Solo Agents',
           'Small & Mid-size Brokerages',
@@ -33,7 +33,7 @@ function TrustSection() {
               alt="logo"
               className=" lg:hidden"
             />
-            <p className="font-[DM-Sans-light] text-[12px] lg:text-[16px]] leading-[145%] text-[#535460]">
+            <p className="font-[DM-Sans-light] text-[12px] lg:text-[16px] leading-[145%] text-[#535460]">
               {logo}
             </p>
           </div>

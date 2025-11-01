@@ -36,7 +36,7 @@ function Card({
         width={width || 400}
         height={imgHeight || 306}
       />
-      <div className={isWide ? 'p-[35px]' : `p-[25px]`}>
+      <div className={isWide ? 'p-[16px] lg:p-[35px]' : `p-[16px] lg:p-[25px]`}>
         <h3 className="font-[DM-Sans-Medium] text-[18px] lg:text-[24px] leading-[28px] text-[#11111C]">
           {title || 'Listing & Inventory'}
         </h3>

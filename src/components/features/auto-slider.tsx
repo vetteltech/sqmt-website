@@ -91,8 +91,13 @@ const AutoSliderSection = () => {
         <SelectionBar selected={selected} setSelected={setSelected} />
       </div>
 
+      {/* Mobile view */}
+      {/* <div className="w-full lg:hidden overflow-x-scroll">
+        <SelectionBar selected={selected} setSelected={setSelected} />
+      </div> */}
+
       {/* Tabs container */}
-      <div className="w-full border border-[rgba(0,0,0,0.1)] rounded-[20px] mt-[40px] overflow-hidden">
+      <div className="w-full h-[420px] border border-[rgba(0,0,0,0.1)] rounded-[20px] lg:mt-[40px] overflow-hidden">
         <AnimatePresence mode="wait">
           <motion.div
             key={selected}

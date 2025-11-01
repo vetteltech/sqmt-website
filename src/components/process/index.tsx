@@ -22,6 +22,7 @@ function ProcessSection() {
         primaryStyle={{
           width: '627px',
           textAlignment: 'left',
+          isSecondaryBottomText: true,
           mobile: {
             width: '324px',
           },
@@ -47,7 +48,7 @@ function ProcessSection() {
       </div>
 
       <div className="w-[100%] min-h-[220px] bg-[#11111C] flex flex-col lg:flex-row justify-between items-center px-[10%] lg:px-[100px] py-[67px] rounded-[10px] relative overflow-hidden my-[80px] lg:my-[120px]">
-        <p className="max-w-[424px] font-[Forum] text-[35px] lg:text-[50px] leading-[40px] lg:leading-[50px] text-[#FFFFFF] z-[2]">
+        <p className="max-w-[424px] text-center font-[Forum] text-[35px] lg:text-[50px] leading-[40px] lg:leading-[50px] text-[#FFFFFF] z-[2]">
           Stay Ahead with Smart Features
         </p>
 

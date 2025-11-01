@@ -10,10 +10,10 @@ function SelectionBar({
       <ol className="flex justify-center items-center gap-[20px]">
         {['Lead Management', 'Listing & Inventory', 'Booking Tracker', 'Sales Insights'].map(
           item => (
-            <li
+            <p
               key={item}
               className={
-                'px-[79px] py-[10px] cursor-pointer rounded-[100px] font-[DM-Sans-light] text-[16px] leading-[25px]'
+                'px-[15px] py-[10px] lg:px-[79px] lg:py-[10px] cursor-pointer rounded-[100px] font-[DM-Sans-light] text-[16px] leading-[25px]'
               }
               onClick={() => {
                 if (setSelected) setSelected(item);
@@ -24,7 +24,7 @@ function SelectionBar({
               }}
             >
               {item}
-            </li>
+            </p>
           ),
         )}
       </ol>
