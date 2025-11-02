@@ -51,3 +51,13 @@ body {
   -webkit-box-shadow: 0 0 0px 1000px #12121b inset !important;
   -webkit-text-fill-color: #fff !important;
 }
+
+/* scroll bar */
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

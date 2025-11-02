@@ -47,7 +47,7 @@ function Tabs({
           <img
             src={info || '/assets/feature/booking-tracker/s2.svg'}
             alt="feature tab"
-            className="w-[100%] lg:h-[411px]  lg:object-none"
+            className="w-[100%] lg:h-[411px]  lg:object-fill"
             width={642}
             // height={411}
           />
