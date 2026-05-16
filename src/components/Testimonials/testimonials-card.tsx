@@ -61,7 +61,7 @@ function TestimonialsCards({
 
         <p className="font-[DM-Sans-light] text-[16px]  lg:text-[20px] leading-[27px] text-[#11111C] mt-[20px]">
           {description ||
-            ' "Zameen has revolutionized our real estate business. The AI-driven lead management system has significantly improved our conversion rates and overall efficiency."'}
+            ' "SquareMeter has revolutionized our real estate business. The AI-driven lead management system has significantly improved our conversion rates and overall efficiency."'}
         </p>
 
         <div className="w-[100%] mt-[46px] gap-[16px] lg:gap-[29px] flex flex-col lg:flex-row justify-start items-center">

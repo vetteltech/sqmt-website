@@ -8,7 +8,7 @@ function Footer() {
         <div className="lg:w-[20%] flex justify-center items-center gap-[10px]">
           <Image src="/assets/header_logo_with_name.svg" alt="logo" width={174} height={30.24} />
           {/* <h3 className="font-[DM-Sans-light] font-[600] text-[32px] leading-[33px] text-[#11111C]">
-            Zameen
+            SquareMeter
           </h3> */}
         </div>
 
@@ -98,7 +98,7 @@ function Footer() {
 
         <div className="mt-[25px] border-t border-[#E4E4E7] pt-[25px] flex flex-col lg:flex-row justify-between items-center">
           <p className="font-[DM-Sans-light] font-[300] text-[16px] leading-[26px] text-[#11111C] opacity-50 text-center">
-            © 2024 Zameen. All rights reserved.
+            © 2024 SquareMeter. All rights reserved.
           </p>
           <p className="font-[DM-Sans-light] font-[300] text-[16px] leading-[26px] text-[#11111C] opacity-50 text-center">
             Privacy Policy | Terms & Conditions

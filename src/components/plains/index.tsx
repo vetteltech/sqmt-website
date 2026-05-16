@@ -20,7 +20,7 @@ function PlanSection() {
                   </h2>
                   <p className="max-w-[506px] font-[DM-Sans-light] text-center text-[16px] leading-[21px] text-[#585860] mt-[10px]">
                     {
-                      'See how Zameen is transforming the way agents and brokers win leads, close deals, and grow business.'
+                      'See how SquareMeter is transforming the way agents and brokers win leads, close deals, and grow business.'
                     }
                   </p>
                 </div>
@@ -30,7 +30,7 @@ function PlanSection() {
 
           <HeaderText
             PrimaryText="What Real Estate Pros Say"
-            secondaryText="See how Zameen is transforming the way agents and brokers win leads, close deals, and grow business."
+            secondaryText="See how SquareMeter is transforming the way agents and brokers win leads, close deals, and grow business."
             primaryStyle={{
               width: '627px',
               textAlignment: 'center',

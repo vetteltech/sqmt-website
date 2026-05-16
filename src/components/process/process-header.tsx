@@ -30,7 +30,7 @@ function ProcessHeader({
         <div className=" h-[100%] flex lg:items-end">
           <p className="max-w-[397px] font-[DM-Sans-light] lg:text-right text-[16px] lg:text-[16px] leading-[25px] lg:leading-[25px] text-[#585860] mt-[10px]">
             {description ||
-              ' From adding properties to AI-driven nudges, Zameen streamlines every step so you close faster, every time.'}
+              ' From adding properties to AI-driven nudges, SquareMeter streamlines every step so you close faster, every time.'}
           </p>
         </div>
       </div>

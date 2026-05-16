@@ -1,7 +1,9 @@
+'use client';
+
 import Tags from '../features/tag';
-import ProcessHeader from '../process/process-header';
 import HeaderText from '../common/headerText';
 import Image from 'next/image';
+import TalkToRashiDemo from '@/components/talk-to-rashi/TalkToRashiDemo';
 
 function AiSection() {
   return (
@@ -10,39 +12,27 @@ function AiSection() {
       className=" mx-[16px] 2xl:bg-[#F4F6FF] lg:mx-[30px] 2xl:mx-[25%] rounded-t-[10px] overflow-hidden"
     >
       <div className="w-[100%] min-h-[480px] lg:min-h-[590px] bg-[#F4F6FF] pt-[35px] lg:pt-[120px]">
-        <div className="max-w-[161px] h-[35px] px-[10px] py-[5px] mx-[5px] lg:mx-[8%] lg:mx-[60px]">
-          <Tags bgColor="#FFFFFF" text="Why Zameen?" />
-        </div>
+        <div className="w-[100%] flex h-[100%] flex-col lg:flex-row">
+          <div className="relative flex h-[100%] w-[100%] flex-col items-center px-[16px] lg:w-[50%] lg:px-[70px]">
+            <div className="mb-[10px] flex w-full justify-center lg:mb-[14px]">
+              <Tags bgColor="#EDF0FF" text="AI Voice Agent" />
+            </div>
 
-        <div className="w-[100%] h-[100%] flex flex-col lg:flex-row">
-          <div className="lg:w-[50%] h-[100%] px-[16px] lg:px-[70px] relative ">
-            {/* <div>
-              <div className="w-[100%] h-[100px] flex flex-col mt-[14px]">
-                <h2 className="max-w-[436px] font-[Forum] text-[50px] leading-[50px] text-[#11111C]">
-                  {'Built for Agents. Powered by AI'}
-                </h2>
-                <p className="max-w-[506px] font-[DM-Sans-light] text-left text-[16px] leading-[25px] text-[#585860] mt-[25px]">
-                  {
-                    'Zameen.app was designed to fit how Indian real estate professionals actually work. No more juggling Excel sheets, WhatsApp messages, and lost leads. Our AI-backed CRM brings everything into one platform — intuitive, localized, and focused on results.'
-                  }
-                </p>
-              </div>
-            </div> */}
-
-            <div className="mt-[14px]">
+            <div className="relative z-[10] mt-[14px] flex w-full max-w-[520px] flex-col items-center gap-6">
               <HeaderText
-                PrimaryText="Built for Agents. Powered by AI"
-                secondaryText="Zameen.app was designed to fit how Indian real estate professionals actually work. No more juggling Excel sheets, WhatsApp messages, and lost leads. Our AI-backed CRM brings everything into one platform — intuitive, localized, and focused on results."
+                PrimaryText="Try Our AI Agent Now!"
+                secondaryText="Meet Rashi and try a realtime voice demo."
                 primaryStyle={{
-                  width: '506px',
-                  textAlignment: 'left',
-                  primaryTextWidth: '420px',
-                  primaryTextMobileWidth: '317px',
+                  width: '100%',
+                  textAlignment: 'center',
+                  primaryTextWidth: '100%',
+                  primaryTextMobileWidth: '100%',
                   mobile: {
-                    width: '324px',
+                    width: '100%',
                   },
                 }}
               />
+              <TalkToRashiDemo placement="inline" />
             </div>
 
             <img
@@ -51,7 +41,7 @@ function AiSection() {
               style={{
                 objectFit: 'fill',
               }}
-              className="hidden lg:block w-[100%] 2xl:h-[510px] lg:h-[600px] 2xl:w-[100%] hidden lg:block absolute top-21 left-0"
+              className="absolute top-21 left-0 hidden w-[100%] lg:block 2xl:h-[510px] lg:h-[600px] 2xl:w-[100%]"
             />
 
             <img
@@ -64,7 +54,7 @@ function AiSection() {
             />
           </div>
 
-          <div className="w-[50%] h-[100%]">
+          <div className="h-[100%] w-[100%] lg:w-[50%]">
             <img
               src="/assets/dashboard-image.svg"
               alt="ai"
@@ -88,7 +78,7 @@ function AiSection() {
             {[
               {
                 percentage: '65%',
-                text: 'Agents using Zameen close deals faster compared to traditional CRMs',
+                text: 'Agents using SquareMeter close deals faster compared to traditional CRMs',
               },
               {
                 percentage: '80%',
@@ -111,12 +101,6 @@ function AiSection() {
               );
             })}
           </div>
-
-          <img
-            src="/assets/graph.svg"
-            alt="ai"
-            className="hidden lg:block w-[100%] lg:mt-[54px]  mt-[50px]"
-          />
         </div>
 
         <Image

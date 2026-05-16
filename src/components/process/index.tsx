@@ -13,12 +13,12 @@ function ProcessSection() {
       {/* <ProcessHeader
         tagText="Process"
         title="3 Steps to More Conversions"
-        description="From adding properties to AI-driven nudges, Zameen streamlines every step so you close faster, every time."
+        description="From adding properties to AI-driven nudges, SquareMeter streamlines every step so you close faster, every time."
       /> */}
 
       <HeaderText
         PrimaryText="3 Steps to More Conversions"
-        secondaryText="From adding properties to AI-driven nudges, Zameen streamlines every step so you close faster, every time."
+        secondaryText="From adding properties to AI-driven nudges, SquareMeter streamlines every step so you close faster, every time."
         primaryStyle={{
           width: '627px',
           textAlignment: 'left',
@@ -43,7 +43,7 @@ function ProcessSection() {
         <Card
           imgSrc="/assets/cards/focus_on_closing_deals.png"
           title="Focus on Closing Deals"
-          description="Get notified when it's time to act. Zameen keeps the follow-ups flowing so you can focus on conversions."
+          description="Get notified when it's time to act. SquareMeter keeps the follow-ups flowing so you can focus on conversions."
         />
       </div>
 
@@ -84,7 +84,7 @@ function ProcessSection() {
             isWide={innerWidth > 440 ? true : false}
             imgSrc="/assets/cards/call.gif"
             title="AI Voice Assistant"
-            description="Never miss a client call again. Zameen’s AI assistant answers, records details, and updates your CRM — available 24/7 in multiple languages."
+            description="Never miss a client call again. SquareMeter’s AI assistant answers, records details, and updates your CRM — available 24/7 in multiple languages."
           />
           <Card
             width={innerWidth < 440 ? 388 : 605}

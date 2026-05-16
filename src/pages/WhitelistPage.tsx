@@ -108,7 +108,7 @@ function WhitelistPage() {
             Join Our Waitlist for Smarter Real Estate Management
           </h1>
           <p className="font-[DM Sans] text-[14px] lg:text-[16px] leading-[25px] text-center text-[rgba(17,17,28,0.52)] lg:text-[#11111C] mt-[10px]">
-            Get early access to Zameen.app and stay ahead with AI-driven
+            Get early access to SquareMeter.app and stay ahead with AI-driven
             insights and automation.
           </p>
 

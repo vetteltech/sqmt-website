@@ -9,7 +9,7 @@ function Testimonials() {
       {/* <ProcessHeader
         tagText="Testimonials"
         title="What Real Estate Pros Say"
-        description="See how Zameen is transforming the way agents and brokers win leads, close deals, and grow business."
+        description="See how SquareMeter is transforming the way agents and brokers win leads, close deals, and grow business."
         titleWidth={390}
       /> */}
 
@@ -19,7 +19,7 @@ function Testimonials() {
 
       <HeaderText
         PrimaryText="What Real Estate Pros Say"
-        secondaryText="See how Zameen is transforming the way agents and brokers win leads, close deals, and grow business."
+        secondaryText="See how SquareMeter is transforming the way agents and brokers win leads, close deals, and grow business."
         primaryStyle={{
           width: '627px',
           textAlignment: 'left',
@@ -33,7 +33,7 @@ function Testimonials() {
       <div className="mt-[80px] lg:mt-[80px] flex flex-col lg:flex-row justify-between items-center w-[100%] gap-[30px]">
         <TestimonialsCards
           logo="/assets/rustomjee.svg"
-          description="Zameen made our lead management effortless. Earlier, we struggled to track prospects and often lost potential clients. Now, everything is organized, and our closing rate has improved significantly."
+          description="SquareMeter made our lead management effortless. Earlier, we struggled to track prospects and often lost potential clients. Now, everything is organized, and our closing rate has improved significantly."
           location="Mumbai, India"
           agents={25}
           performance={[
@@ -43,7 +43,7 @@ function Testimonials() {
         />
         <TestimonialsCards
           logo="/assets/lodha.png"
-          description="Working with Zameen transformed how we handle clients. From generating leads to finalizing deals, the process is smoother and more professional. Our team feels more confident and productive."
+          description="Working with SquareMeter transformed how we handle clients. From generating leads to finalizing deals, the process is smoother and more professional. Our team feels more confident and productive."
           location="Delhi NCR, India"
           agents={40}
           performance={[
