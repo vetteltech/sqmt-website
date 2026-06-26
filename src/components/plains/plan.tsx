@@ -19,11 +19,11 @@ function Plan({
     <div className="lg:w-[610px] min-h-[427px] p-[15px] bg-[#FFFFFF] rounded-[10px]">
       <div className="w-[100%] min-h-[180px] bg-[#F4F6FF] rounded-[10px] px-[25px] py-[24.5px] relative">
         <h2 className="font-[Forum] text-[30px] text-[#11111C]">{planName}</h2>
-        <p className="font-[DM Sabs] text-[16px] text-[gray]">{planDescription}</p>
+        <p className="font-[DM-Sans-light] text-[16px] text-[gray]">{planDescription}</p>
 
         <a className="" href="#contact_us">
           <button
-            className="w-[100%] p-[10.5px] bg-[#1241FF] rounded-[5px] text-[#FFFFFF] mt-[25px] flex justify-center items-center gap-[14px] cursor-pointer"
+            className="w-[100%] p-[10.5px] bg-[#1241FF] rounded-[5px] text-[#FFFFFF] font-[DM-Sans-light] mt-[25px] flex justify-center items-center gap-[14px] cursor-pointer"
             style={{
               background: btnColor ? btnColor : '#1241FF',
             }}
@@ -52,7 +52,7 @@ function Plan({
           What You Will Get
         </p>
 
-        <ol className="ont-[DM-Sans-light] text-[16px] leading-[21px] text-[#585860] flex flex-col gap-[25px] mt-[25px] mb-[10px]">
+        <ol className="font-[DM-Sans-light] text-[16px] leading-[21px] text-[#585860] flex flex-col gap-[25px] mt-[25px] mb-[10px]">
           {features?.map((feature, index) => (
             <li key={index} className="flex gap-[10px]">
               <Image src="/assets/plan/tick.svg" alt="check" width={16} height={16} />

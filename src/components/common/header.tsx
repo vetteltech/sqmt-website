@@ -16,7 +16,7 @@ function Header() {
       </div>
 
       <div className="hidden md:flex">
-        <ol className="flex justify-center items-center gap-[35px] text-[#11111C] font-[DM Sans] text-[16px] font-[300] leading-[25px] cursor-pointer">
+        <ol className="flex justify-center items-center gap-[35px] text-[#11111C] font-[DM-Sans-light] text-[16px] font-[300] leading-[25px] cursor-pointer">
           <li>
             <a href="#about">About</a>
           </li>
@@ -37,9 +37,9 @@ function Header() {
 
       <div className="">
         <button
-          className="w-[105px] h-[43px] rounded-[5px] bg-[#1241FF] text-[#FFFFFF] cursor-pointer"
+          className="w-[105px] h-[43px] rounded-[5px] bg-[#1241FF] text-[#FFFFFF] font-[DM-Sans-light] cursor-pointer"
           onClick={() => {
-            router.push("/whitelist");
+            window.location.href = "https://agents-albums-groundwater-identical.trycloudflare.com";
           }}
         >
           Log In

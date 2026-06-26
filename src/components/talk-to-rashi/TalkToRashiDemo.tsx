@@ -136,7 +136,8 @@ export default function TalkToRashiDemo({ placement = 'floating' }: TalkToRashiD
     setPhase('connecting');
 
     try {
-      const sessRes = await fetch('/api/openai/rashi-realtime-session', {
+      const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:4000';
+      const sessRes = await fetch(`${backendUrl}/api/public-agent/rashi-realtime-session`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ language: lang }),

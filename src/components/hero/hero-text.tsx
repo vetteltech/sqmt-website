@@ -17,7 +17,7 @@ function HeroText() {
 
         <a href="#contact_us">
           <button
-            className=" h-[50px] bg-[#000000] rounded-[5px] text-[#FFFFFF] mt-[34px] py-[13px] px-[42px] cursor-pointer"
+            className=" h-[50px] bg-[#000000] rounded-[5px] text-[#FFFFFF] font-[DM-Sans-light] mt-[34px] py-[13px] px-[42px] cursor-pointer"
             // onClick={() => {
             //   router?.push('/whitelist');
             // }}

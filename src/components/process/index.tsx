@@ -53,7 +53,7 @@ function ProcessSection() {
         </p>
 
         <a className="z-10" href="#contact_us">
-          <button className="w-[100%] lg:w-[137px] h-[50px] mt-[30px] lg:mt-[0px] bg-[#FFFFFF] px-[20px] py-[13.5px] rounded-[5px] text-[#11111C] font-[DM Sans] text-[16px] z-[2] cursor-pointer">
+          <button className="w-[100%] lg:w-[137px] h-[50px] mt-[30px] lg:mt-[0px] bg-[#FFFFFF] px-[20px] py-[13.5px] rounded-[5px] text-[#11111C] font-[DM-Sans-light] text-[16px] z-[2] cursor-pointer">
             Book a Demo
           </button>
         </a>
