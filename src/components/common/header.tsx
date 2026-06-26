@@ -39,7 +39,7 @@ function Header() {
         <button
           className="w-[105px] h-[43px] rounded-[5px] bg-[#1241FF] text-[#FFFFFF] font-[DM-Sans-light] cursor-pointer"
           onClick={() => {
-            window.location.href = "https://agents-albums-groundwater-identical.trycloudflare.com";
+            window.location.href = "https://dashboard.sqmt.app";
           }}
         >
           Log In
